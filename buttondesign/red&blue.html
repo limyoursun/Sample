@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="common.css">
+  <script src="common.js"></script>
+  <title>Design - Red & Blue</title>
+  <style>
+  h1,h2{background-color:#ebecf0;text-align:center;}
+
+
+    button{margin:0;padding:0;border:0;border:1px solid transparent;}
+    .btn_wrap button{padding:20px 25px;transition:0.3s;}
+    .btn_wrap_1{margin-bottom:20px;}
+    .btn_wrap_1 button{border-radius:50px;}
+    .btn_sha{box-shadow:3px 3px 0 #aaa;}
+
+    .btn_1{background-color:#01093f;color:#fff;}
+    .btn_1:hover,.btn_1:active,.btn_1.active{background-color:#b2b5c5;color:#333;}
+    .btn_2{background-color:#7d82a1;color:#fff;}
+    .btn_2:hover,.btn_2:active,.btn_2.active{background-color:#cfd0d7;color:#333;}
+    .btn_3{background-color:#ff7f79;color:#fff;}
+    .btn_3:hover,.btn_3:active,.btn_3.active{background-color:#ffe5e0;color:#333;}
+    .btn_4{background-color:#a5a7b1;color:#fff;}
+    .btn_4:hover,.btn_4:active,.btn_4.active{background-color:#d8d8d8;color:#333;}
+    .btn_5{background-color:#01093f;color:#fff;}
+    .btn_5:hover,.btn_5:active,.btn_5.active{border:1px solid #01093f;background-color:#fff;color:#333;}
+    .btn_6{background-color:#7d82a1;color:#fff;}
+    .btn_6:hover,.btn_6:active,.btn_6.active{border:1px solid #7d82a1;background-color:#fff;color:#333;}
+    .btn_7{background-color:#ff7f79;color:#fff;}
+    .btn_7:hover,.btn_7:active,.btn_7.active{border:1px solid #ff7f79;background-color:#fff;color:#333;}
+    .btn_8{background-color:#a5a7b1;color:#fff;}
+    .btn_8:hover,.btn_8:active,.btn_8.active{border:1px solid #a5a7b1;background-color:#fff;color:#333;}
+
+    /* Color Theme Swatches in HEX */
+    .color1{background:#01093f;}
+    .color2{background:#7d82a1;}
+    .color3{background:#ff7f79;}
+    .color4{background:#ffe5e0;}
+    .color5{background:#cfd0d7;}
+    .color6{background:#a5a7b1;}
+
+  </style>
+</head>
+<body>
+  <div class="color_chart">
+    <h1>Blue & Red & Gray</h1>
+    <ul id="chart" class="flex">
+      <li class="color1"></li>
+      <li class="color2"></li>
+      <li class="color3"></li>
+      <li class="color4"></li>
+      <li class="color5"></li>
+      <li class="color6"></li>
+    </ul>
+  </div>
+  <div class="btn_wrap">
+    <h2>Button</h2>
+    <div class="flex btn_wrap_1">
+      <button type="button" class="btn_1 btn_sha">Design1</button>
+      <button type="button" class="btn_2 btn_sha">Design2</button>
+      <button type="button" class="btn_3">Design3</button>
+      <button type="button" class="btn_4">Design4</button>
+    </div>
+    <div class="flex btn_wrap_2">
+      <button type="button" class="btn_5">Design5</button>
+      <button type="button" class="btn_6">Design6</button>
+      <button type="button" class="btn_7">Design7</button>
+      <button type="button" class="btn_8">Design8</button>
+    </div>
+  </div>
+</body>
+</html>
