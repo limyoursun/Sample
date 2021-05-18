@@ -1,9 +1,12 @@
 @charset "utf-8";
+  .blind{position:absolute;left:-9999px;}
+  .center{width:1200px;margin:0 auto;}
 
   /* Common */
   h1, h2{text-align:center;margin:40px 0;}
   ul, li{list-style:none;padding:0;}
   button{margin:0;padding:0;border:0;border:1px solid transparent;}
+  table{line-height:30px;border-collapse:collapse; border-spacing:0;}
   .flex{display:flex;justify-content:space-around;}
   .btn_wrap button{padding:20px 25px;transition:0.3s;}
   .btn_wrap_1{margin-bottom:20px;}
